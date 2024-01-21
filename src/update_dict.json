@@ -1,0 +1,62 @@
+{
+	"put_user": {
+		"method": "put",
+		"body": {
+			"name": "morpheus",
+			"job": "zion resident"
+		},
+		"end_point": "users/2",
+		"status_code": 200,
+		"response": {
+			"name": "morpheus",
+			"job": "zion resident",
+			"updatedAt": "2024-01-20T11:09:25.918Z"
+		},
+		"updated_fields": "all"
+	},
+	"patch_name_user": {
+		"method": "patch",
+		"body": {
+			"name": "moror"
+		},
+		"end_point": "users/2",
+		"status_code": 200,
+		"response": {
+			"name": "moror"
+		},
+		"updated_fields": [
+			"name"
+		]
+	},
+	"patch_job_user": {
+		"method": "patch",
+		"body": {
+			"job": "zion resident"
+		},
+		"end_point": "users/2",
+		"status_code": 200,
+		"response": {
+			"job": "zion resident"
+		},
+		"updated_fields": [
+			"job"
+		]
+	},
+	"patch_full_user": {
+		"method": "patch",
+		"body": {
+			"name": "moror",
+			"job": "zion resident"
+		},
+		"end_point": "users/2",
+		"status_code": 200,
+		"response": {
+			"name": "moror",
+			"job": "zion resident"
+		},
+		"updated_fields": [
+			"name",
+			"job"
+		]
+	}
+}

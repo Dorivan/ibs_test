@@ -1,0 +1,40 @@
+1705517328227	geckodriver	INFO	Listening on 127.0.0.1:58997
+1705517331295	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58998" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile9MwY5S"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705517332139	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1705517332304	Marionette	INFO	Listening on port 59016
+WebDriver BiDi listening on ws://127.0.0.1:58998
+Read port: 59016
+1705517332624	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58998/devtools/browser/763a8d1f-4479-4c71-8710-89ca4e02c70a
+JavaScript warning: https://codesandbox.io/p/preview-protocol.js, line 45: unreachable code after return statement
+JavaScript error: https://codesandbox.io/static/browserfs12/browserfs.min.js, line 7: TypeError: t is null
+JavaScript error: https://codesandbox.io/static/browserfs12/browserfs.min.js, line 7: TypeError: t is null
+1705517345938	Marionette	INFO	Stopped listening on port 59016
+JavaScript warning: https://codesandbox.io/static/js/sandbox.5c5d1fab6.js, line 1: Script terminated by timeout at:
+t@https://codesandbox.io/static/js/sandbox.5c5d1fab6.js:1:42
+@https://codesandbox.io/static/js/2.77529c16f.chunk.js:1:35
+
+Dynamically enable window occlusion 1
+1705517584342	geckodriver	INFO	Listening on 127.0.0.1:59812
+1705517587404	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59813" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilecX9Ure"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705517587810	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1705517587895	Marionette	INFO	Listening on port 59827
+WebDriver BiDi listening on ws://127.0.0.1:59813
+Read port: 59827
+1705517588142	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59813/devtools/browser/38a9aa06-030f-4646-84c5-beaea29d7d3e
+JavaScript error: https://codesandbox.io/static/browserfs12/browserfs.min.js, line 7: TypeError: t is null
+JavaScript warning: https://codesandbox.io/p/preview-protocol.js, line 45: unreachable code after return statement
+1705517596002	Marionette	INFO	Stopped listening on port 59827
+JavaScript warning: https://codesandbox.io/static/js/sandbox.5c5d1fab6.js, line 1: Script terminated by timeout at:
+handleWorkerReady@https://codesandbox.io/static/js/sandbox.5c5d1fab6.js:1:180224
+handleMessage@https://codesandbox.io/static/js/sandbox.5c5d1fab6.js:1:180392
+./src/sandbox/compile.ts/loadWorker/</</<@https://codesandbox.io/static/js/sandbox.5c5d1fab6.js:1:180979
+
+Dynamically enable window occlusion 1

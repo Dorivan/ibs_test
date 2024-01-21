@@ -1,0 +1,45 @@
+{
+	"register_succ": {
+		"response": {
+			"id": 4,
+			"token": "QpwL5tke4Pnpja7X4"
+		},
+		"status_code": 200,
+		"body": {
+			"email": "eve.holt@reqres.in",
+			"password": "pistol"
+		},
+		"end_point": "register"
+	},
+	"register_unsucc_1": {
+		"response": {
+			"error": "Missing password"
+		},
+		"status_code": 400,
+		"body": {
+			"email": "sydney@fife"
+		},
+		"end_point": "register"
+	},
+	"login_succ": {
+		"response": {
+			"token": "QpwL5tke4Pnpja7X4"
+		},
+		"status_code": 200,
+		"body": {
+			"email": "eve.holt@reqres.in",
+			"password": "cityslicka"
+		},
+		"end_point": "login"
+	},
+	"login_unsucc_1": {
+		"response": {
+			"error": "Missing password"
+		},
+		"body": {
+			"email": "peter@klaven"
+		},
+		"status_code": 400,
+		"end_point": "login"
+	}
+}

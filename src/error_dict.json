@@ -1,0 +1,22 @@
+{
+	"register_unsucc_2": {
+		"response": {
+			"error": "Missing email"
+		},
+		"status_code": 400,
+		"body": {
+			"password": "pistol"
+		},
+		"end_point": "register"
+	},
+	"login_unsucc_2": {
+		"response": {
+			"error": "Missing email"
+		},
+		"body": {
+			"password": "cityslicka"
+		},
+		"status_code": 400,
+		"end_point": "login"
+	}
+}
